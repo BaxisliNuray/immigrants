@@ -1,0 +1,24 @@
+.container{
+   height: 100vh;
+}
+@media only screen and (max-width:1200px) {
+   .container{
+        height: 100vh;
+   }
+   .img{
+      width: 60%;
+   }
+   .content p{
+      font-size: 14px !important ;
+   }
+   .content h1{
+      font-size: 35px !important;
+   }
+   .leftside{
+      height: 50% !important;
+      align-items: end !important;
+   }
+   .imgWrapper{
+      height: 50% !important;
+   }
+}
